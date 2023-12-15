@@ -112,6 +112,8 @@ namespace LethalMods.models
 
         private void DeleteFolderContents(DirectoryInfo targetFolder)
         {
+            if(!targetFolder.Exists) return;
+
             foreach(FileInfo info in targetFolder.EnumerateFiles())
             {
                 try

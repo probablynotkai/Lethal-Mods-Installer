@@ -49,3 +49,6 @@ C:\Users\kaih2\Desktop\LethalMods\LethalMods\obj\Release\LethalMods.application
 C:\Users\kaih2\Desktop\LethalMods\LethalMods\bin\Release\Newtonsoft.Json.dll
 C:\Users\kaih2\Desktop\LethalMods\LethalMods\bin\Release\Newtonsoft.Json.xml
 C:\Users\kaih2\Desktop\LethalMods\LethalMods\obj\Release\LethalMods.csproj.CopyComplete
+C:\Users\kaih2\Desktop\LethalMods\LethalMods\bin\Release\config.yml
+C:\Users\kaih2\Desktop\LethalMods\LethalMods\bin\Release\dependencies\winhttp.dll
+C:\Users\kaih2\Desktop\LethalMods\LethalMods\bin\Release\dependencies\doorstop_config.ini

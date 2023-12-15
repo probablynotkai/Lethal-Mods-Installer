@@ -1,0 +1,5 @@
+# 
+# If you have a custom installation path for Steam games, update this path to your 
+# custom location.
+# 
+STEAM_INSTALLATION_PATH: C:\\Program Files (x86)\\Steam\\steamapps\\common\\

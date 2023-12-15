@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LethalMods.exe" size="18840">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LethalMods.exe" size="19352">
       <assemblyIdentity name="LethalMods" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Up4b6zD4Pr5ME+g/FgRsC00w70L5VSMaJMLeVeShuwY=</dsig:DigestValue>
+        <dsig:DigestValue>IkQLupPg1V+z0svurzvdcZweL0+eGlSFkATo5ZZPw9c=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

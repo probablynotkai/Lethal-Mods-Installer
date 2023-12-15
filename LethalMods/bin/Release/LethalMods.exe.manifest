@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LethalMods.exe" size="15768">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LethalMods.exe" size="18328">
       <assemblyIdentity name="LethalMods" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>nEtKCWSLx6DoyOXIesYsv/XxeEILBBqU8By50KmDIw8=</dsig:DigestValue>
+        <dsig:DigestValue>bQuhW662U/8z/BQNP8A5vnClCJdTzecqrR7DCRI6i6s=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -226,6 +226,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>BXezYgI6NDLW6NeTTF7dw+CP27GeGRrwg+NBVixe3jg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dependencies\winhttp.dll" size="25088">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>z53TcsoN2+ARU1AsSfj3Vhl7smAAF5L+dm9sAkLcf8A=</dsig:DigestValue>
     </hash>
   </file>
   <file name="LethalMods.exe.config" size="189">

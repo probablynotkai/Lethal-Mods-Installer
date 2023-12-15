@@ -119,6 +119,9 @@
     <None Include="dependencies\BepInEx\LogOutput.log">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="dependencies\doorstop_config.ini">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="LethalMods_TemporaryKey.pfx" />
     <None Include="packages.config" />
     <None Include="plugins\freddy.bundle">
@@ -201,10 +204,10 @@
     <Content Include="dependencies\BepInEx\core\MonoMod.Utils.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="LethalModsIcon.ico" />
-    <Content Include="plugins\Enhancer.dll">
+    <Content Include="dependencies\winhttp.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="LethalModsIcon.ico" />
     <Content Include="plugins\FasterStart.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
