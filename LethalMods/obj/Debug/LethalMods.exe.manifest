@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LethalMods.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="LethalModsIcon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LethalMods" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LethalMods.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LethalMods.exe" size="18840">
+      <assemblyIdentity name="LethalMods" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Up4b6zD4Pr5ME+g/FgRsC00w70L5VSMaJMLeVeShuwY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="526336">
+      <assemblyIdentity name="Newtonsoft.Json" version="9.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>V14w+Y5OpCyeUW7ci7sprYtQsXOj5rNrW6OeEzzOlAY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="dependencies\BepInEx\core\0Harmony.dll" size="204800">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GiHMA0JPyCw90TRpBdFklFNrlZWuQWIijZn7fChcEDE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dependencies\BepInEx\core\0Harmony.xml" size="267107" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0fAvw62joT2jB95CEiW/5W6+JAZDcJgJeTkcS+AhZy8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dependencies\BepInEx\core\0Harmony20.dll" size="111616">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8faWkMzHqukVYjjEEVwJ6cnHvWRtRST/kJGuPgRmfiM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dependencies\BepInEx\core\BepInEx.dll" size="127488">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JnTTrs8wl77oF6vn6LvMQr9YPfUUAgadX81PvtVQF84=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dependencies\BepInEx\core\BepInEx.Harmony.dll" size="5632">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0HOcShPzaQlMsWTCBe5MylOSvdckG58kLuE/DUwLGFY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dependencies\BepInEx\core\BepInEx.Harmony.xml" size="4056" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oE/t8I98gfXQGrpvKECn/85Qt5u9JFh9jb5pq3OXHSk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dependencies\BepInEx\core\BepInEx.Preloader.dll" size="42496">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0ke2o7mgTw2WEFzaKWGGSkBK7bkZPFlmOqxfoVPW/70=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dependencies\BepInEx\core\BepInEx.Preloader.xml" size="7972" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9i1qXa7uVFKwN7jtRrQFGl3Tiutu3S0Ra+FeIisoxhU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dependencies\BepInEx\core\BepInEx.xml" size="89835" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wMd5m7rx43OY+F8LqOAtgTbFWjFl24cGOULj/t2gpow=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dependencies\BepInEx\core\HarmonyXInterop.dll" size="23552">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jCbJYAPDJ0K4+j0TT1Z4JTC+Oo7ouMZiveIQGQ0arGQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dependencies\BepInEx\core\Mono.Cecil.dll" size="339456">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>euRwKI//SkAomcJU0Kds7+9Vh39cVPlug8eXzFu24vY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dependencies\BepInEx\core\Mono.Cecil.Mdb.dll" size="43008">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WJbRiY9hZwH/8Y87LHHmuETSOQ759B4cX8zOjLJ8aY4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dependencies\BepInEx\core\Mono.Cecil.Pdb.dll" size="86528">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>F020SgZ/WFYVEK90bzyusDIDd2LFejHI2e4y2yUXSYQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dependencies\BepInEx\core\Mono.Cecil.Rocks.dll" size="27648">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VKxTn7XdyLRMDprND8tzJPidGgcu3468GwbdaR49OSc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dependencies\BepInEx\core\MonoMod.RuntimeDetour.dll" size="105984">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QOSbsxQ5HNe93CZE+FU+66ksGUuUCDaxA98WlVxGTgw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dependencies\BepInEx\core\MonoMod.RuntimeDetour.xml" size="9414" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VIh4CJYNFWVQs31gLQiEdgeqnpCNA58nZfsLXnk5SqQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dependencies\BepInEx\core\MonoMod.Utils.dll" size="187904">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nRSV8Uesk8T4H4RTjBoybo+Kau/HjWKJ15jzzhFixek=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dependencies\BepInEx\core\MonoMod.Utils.xml" size="78973" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BXezYgI6NDLW6NeTTF7dw+CP27GeGRrwg+NBVixe3jg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="LethalMods.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="LethalModsIcon.ico" size="741">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>giJeMBXaWKnnEvGktLWg/SiBR5jBGEZEqO9B9GlpHmY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\Enhancer.dll" size="16896">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>01fPakptk3iTHieo3lce7OnoY3MkPfZyN64LJmHsTBY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\FasterStart.dll" size="5632">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>77rQ4lRdyLBqQoGkWY3VdL4cyRdWkv8Z1fHKq8hkbAo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\FreddyBracken.dll" size="9216">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VcMh5QLSPW0QRzBL8p48oh/nF6AFn4glddSVUJU3kL8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\LateCompanyV1.0.6.dll" size="11776">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NqISvgutf2qy14ERmPB+TdBPEibz0FBantmdVfmPUME=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\LC_API.dll" size="19968">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vX+K3hP4/TWhO/ScBecllo/o0RI046Ywzk1sKArLCQ4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\LethalEscape.dll" size="13312">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4D1WWcIVC382VgdtS5H9CQWsZVoM+vfW0Hr4XIjy2iY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\MoreEmotes1.1.3.dll" size="12800">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1eXQVkHvBLNQOftORYUeM2yw13uJkLH/rkUMDlwKADM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\SkinwalkerMod.dll" size="26624">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nRHUP2YHcbRFy2MGz61ePXYxVWqsd1wB0QIE9nrS7TI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\YippeeMod.dll" size="6656">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2FMbdVKy3qnAw/3JSPUB8pr5IgVlSfJdwRzKPEEWnjI=</dsig:DigestValue>
+    </hash>
+  </file>
+</asmv1:assembly>
