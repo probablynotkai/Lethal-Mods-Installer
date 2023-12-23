@@ -1,4 +1,4 @@
-# Lethal Mod Installer
+# Lethal Mod Installer (50+ downloads)
 Our user-friendly application simplifies the process of enhancing your gaming experience by effortlessly installing mods. 
 With just a click, you can transform your Lethal Company game with a carefully curated mod list. 
 The application seamlessly integrates with the game's plugins directory, ensuring a smooth and hassle-free experience.
